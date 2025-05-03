@@ -1,12 +1,12 @@
-# 📘 Eporia Anon Social
+# Eporia Anon Social
 
 > A modern, secure, and anonymous text-first social media platform focused on privacy, expression, and minimalism — built with Node.js, Express, PostgreSQL, and EJS.
 
-## 🚀 Project Overview
+## Project Overview
 
 **Eporia** is a lightweight social platform inspired by forums like Reddit, but with a greater emphasis on anonymity, minimalism, and clean user experience. Users can sign up anonymously, post text-based content, interact in real time, and customize their profile with avatars and theme preferences. The platform integrates 2FA (two-factor authentication) for secure updates and login, making user security and privacy central to its mission.
 
-## ✨ Features
+## Features
 
 -  Anonymous Signup with optional custom usernames
 -  Two-Factor Authentication (2FA) via QR Code and Authenticator Apps
@@ -28,10 +28,10 @@
 
 | Page        | Preview |
 |-------------|---------|
-| **Login**   | ![Login](/screenshots/login.png) |
-| **Signup**  | ![Signup](/screenshots/signup.png) |
-| **Edit Profile** | ![Edit Profile](/screenshots/editProfile.png) |
-| **Feed**    | ![Feed](/screenshots/feed.png) |
+| **Login**   | ![Login](public/screenshots/login.png) |
+| **Signup**  | ![Signup](public/screenshots/signup.png) |
+| **Edit Profile** | ![Edit Profile](public/screenshots/editProfile.png) |
+| **Feed**    | ![Feed](public/screenshots/feed.png) |
 
 ##  Installation & Setup
 
