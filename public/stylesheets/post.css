@@ -1,0 +1,30 @@
+.new-post-container {
+    max-width: 720px;
+    margin: 4rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .new-post-container h2 {
+    font-weight: 600;
+    color: #1d3557;
+    margin-bottom: 1.5rem;
+  }
+
+  .new-post-container textarea {
+    width: 100%;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: vertical;
+  }
+
+  .new-post-container button {
+    margin-top: 1rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+  }

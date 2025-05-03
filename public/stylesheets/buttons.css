@@ -1,0 +1,35 @@
+.anonButtons{
+    background: #885A89;
+    border-color: #EE7B30;
+}
+
+.anonButtons:hover{
+    background: #EE7B30;
+}
+
+.verifyButtons{
+    background: #EE7B30;
+    border-color: #885A89;
+}
+
+.verifyButtons:hover{
+    background: #885A89;
+}
+
+.back-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    border: none;
+    background: transparent;
+}
+.manual-code-wrapper {
+    position: relative;
+}

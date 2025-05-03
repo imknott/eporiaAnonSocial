@@ -1,0 +1,123 @@
+:root {
+  --primary: #1D3557;
+  --secondary: #457B9D;
+  --accent: #E63946;
+  --background: #F1FAEE;
+  --surface: #FFFFFF;
+  --text-main: #1D1D1D;
+  --text-muted: #6C757D;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background);
+  color: var(--text-main);
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.top-nav {
+  background-color: var(--surface);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.top-nav a {
+  color: var(--secondary);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.top-nav a:hover {
+  color: var(--accent);
+}
+
+.login-box {
+  background-color: var(--surface);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  max-width: 450px;
+  width: 100%;
+}
+
+h2 {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+input.form-control {
+  border: 1px solid var(--secondary);
+  border-radius: 0.5rem;
+}
+
+input.form-control:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.2rem rgba(230, 57, 70, 0.25);
+  outline: none;
+}
+
+.btn-success {
+  background-color: var(--secondary);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: var(--primary);
+}
+
+.btn-outline-primary {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  color: var(--text-muted);
+}
+.toggle-manual {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #0d6efd;
+  padding: 0.3rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background: none;
+  transition: color 0.2s ease;
+}
+
+.toggle-manual:hover,
+.toggle-manual:focus {
+  color: #084298;
+  text-decoration: underline;
+  outline: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div class="top-nav">
+    <a href="/" class="logo">Eporia</a>
+    <div>
+      <a href="/mission">Our Mission</a>
+    </div>
+  </div>
+
+  <!-- Main Login Container -->
+  <div class="container d-flex justify-content-center align-items-center full-height">
+    <div class="login-box col-md-5 text-center bg-white rounded shadow-sm p-4">
+      <h2 class="mb-4">Welcome to Eporia</h2>
+
+      <form id="loginForm" class="text-start w-100">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control mb-3" id="username" name="username" required>
+        <div id="usernameError" class="form-text text-danger"></div>
+
+        <label for="token" class="form-label">Authenticator Code</label>
+        <input type="text" class="form-control mb-3" id="token" name="token" required>
+        <div id="tokenError" class="form-text text-danger"></div>
+
+        <button type="submit" class="btn btn-success w-100 mt-2">Login</button>
+      </form>
+
+      <p class="mt-4 mb-2">New to Eporia?</p>
+      <form action="/auth/signup" method="get">
+        <button class="btn btn-outline-primary w-100">Start Anonymous Sign-Up</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">Eporia ©2025</footer>
+
+  <script src="/javascripts/alerts.js"></script>
+</body>
+</html>
